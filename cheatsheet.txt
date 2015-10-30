@@ -1,0 +1,20 @@
+git clone --config="http.proxy=http://poom1675:pokemon@192.168.2.1:8080" https://github.com/poom1675-cmis/poom1675-cmis-wd.git
+
+ls <directory name>:  List contents of a directory
+
+cd:  Go home.
+
+cd <directory name>:  Change directory
+
+cd ..:  Go up
+
+cat <file name>:  View the contents of a file
+
+gedit <file name> &:  Edit a file
+
+git add <file name>:  Add a file to be committed
+
+git commit -m "Commit Comment":  Commit file to be saved
+
+git push:  Save a file on the server
+
