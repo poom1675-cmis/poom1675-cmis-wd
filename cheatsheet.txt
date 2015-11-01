@@ -17,4 +17,3 @@ git add <file name>:  Add a file to be committed
 git commit -m "Commit Comment":  Commit file to be saved
 
 git push:  Save a file on the server
-
