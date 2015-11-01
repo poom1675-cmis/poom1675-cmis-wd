@@ -26,4 +26,3 @@ Copy and paste this list of requirements into the file.*
 Put an asterisk (*) in front of each requirement that you completed.*
 Save the file.*
 Add, commit, and push your changes back to github.com*
-
