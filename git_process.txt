@@ -1,0 +1,20 @@
+How to create a new file using Terminal and put it into your repository on github.com
+
+1. Open Terminal
+2. Clone into your account on github.com by typing in: git clone --config="http.proxy=http://username:password@192.168.2.1:8080" https://github.com/poom1675-cmis/poom1675-cmis-wd.git
+3. Replace username with your actual username for your github account and password with your actual password for your github account and then press enter
+4. type in: cd repository
+5. Replace repository with the name of your repository on your github account and then press enter
+6. Create a file by typing: gedit filename
+7. Replace filename with the name of the file you want to create and then press enter
+8. The file will open up and you can edit it from there
+9. Press ctr+s so save the changes on your file
+10. Close the file and go back to Terminal
+11. To begin to push your file into your repository on github.com, type in: git add filename
+12. Replace filename with the name of your file and then press enter.
+13. To commit the file, type in: git commit -m "committed comment"
+14. Replace committed comment with what you have done to the file and then press enter
+15. To push your file to your repository on github.com, type: git push
+16. Press enter
+
+
