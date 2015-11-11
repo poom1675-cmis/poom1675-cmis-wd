@@ -1,0 +1,35 @@
+h1 {
+	background-color: black;
+	color: yellow;
+	border-style: dotted;
+	font-family: "Georgia";
+	font-size: 100px;
+	text-align: center;
+}
+h2 {
+	background-color: green;
+	color: #FF00FF;
+	border-style: dashed;
+	font-family:"Courier New";
+	font-size: 50px;
+	text-align: center;
+}
+p {
+	background-color: blue;
+	color: #A0A0A0;
+	border-style: solid;
+	font-family: "Comic Sans MS";
+	font-size: 33px;
+	text-align: center;
+}
+footer {
+	background-color: brown;
+	color: red;
+	border-style: double;
+	font-family: "Times New Roman";
+	font-size: 50px;
+	text-align: center;
+}
+html {
+	background-color: #66ccff;
+}
