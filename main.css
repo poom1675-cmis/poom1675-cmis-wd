@@ -1,26 +1,32 @@
 h1 {
 	background-color: black;
-	color: yellow;
+	color: gold;
 	border-style: dotted;
 	font-family: "Georgia";
 	font-size: 100px;
 	text-align: center;
+	border-width: 10px;
+	border-color: yellow;
 }
 h2 {
 	background-color: green;
-	color: #FF00FF;
+	color: turquoise;
 	border-style: dashed;
 	font-family:"Courier New";
 	font-size: 50px;
 	text-align: center;
+	
+	border-color: #FF00FF;
 }
-p {
+h3 {
 	background-color: blue;
-	color: #A0A0A0;
+	color: white;
 	border-style: solid;
 	font-family: "Comic Sans MS";
 	font-size: 33px;
 	text-align: center;
+	border-width: 5px;
+	border-color: silver;
 }
 footer {
 	background-color: brown;
@@ -29,7 +35,32 @@ footer {
 	font-family: "Times New Roman";
 	font-size: 50px;
 	text-align: center;
+	border-width: 15px;
+}
+body { 
+	border-style: groove;
+	border-color: green;
+	border-width: 25px;
+	background-color: orange;
 }
 html {
-	background-color: #66ccff;
+	background-image:url(http://images2.fanpop.com/images/photos/7800000/Nature-Full-HD-Wallpaper-national-geographic-7822279-1920-1080.jpg)
 }
+
+/*
+Requirements
+Create a new file called "main.css"*
+Add a link element to the head of your index.html file*
+<link rel="stylesheet" href="main.css" type="text/css">*
+Edit the main.css file*
+add a declaration for each element in the body of your index.html file.*
+add properties to style the background color of each element.*
+add properties to style the border of each element.*
+add properties to style the font of each element.*
+View your index.html in the development server.*
+Validate your index.html file.*
+Validate your main.css file.*
+Copy this list of requirements and paste it into your "main.css" file as a css comment. Put an asterisk in front of each one that you did.*
+Upload to the production server with sftp.*
+View your index.html in the production server.*
+*/
