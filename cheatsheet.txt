@@ -1,5 +1,3 @@
-git clone --config="http.proxy=http://poom1675:pokemon@192.168.2.1:8080" https://github.com/poom1675-cmis/poom1675-cmis-wd.git
-
 ls <directory name>:  List contents of a directory
 
 cd:  Go home.
@@ -12,8 +10,44 @@ cat <file name>:  View the contents of a file
 
 gedit <file name> &:  Edit a file
 
+Development server: python -m SimpleHTTPServer
+
+git clone --config="http.proxy=http://poom1675:pokemon@192.168.2.1:8080" https://github.com/poom1675-cmis/poom1675-cmis-wd.git
+
+
+
+
+
 git add <file name>:  Add a file to be committed
 
 git commit -m "Commit Comment":  Commit file to be saved
 
 git push:  Save a file on the server
+
+
+
+
+
+
+sftp: sftp poom1675@cmis-hsteacher
+	pwd
+	lpwd
+	cd public_html/
+
+ls - same as terminal
+
+cd - same as terminal
+
+prepend a command with ! to execute it on local
+
+follow a command with -r to apply to everything
+
+put <filename> - upload a file
+
+get <filename> - download a file
+
+
+
+
+
+
