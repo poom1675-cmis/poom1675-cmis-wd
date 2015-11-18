@@ -10,7 +10,9 @@ cat <file name>:  View the contents of a file
 
 gedit <file name> &:  Edit a file
 
-Development server: python -m SimpleHTTPServer
+mkdir <folder name>: makes a folder
+
+rmdir <folder name>: removes a folder
 
 git clone --config="http.proxy=http://poom1675:pokemon@192.168.2.1:8080" https://github.com/poom1675-cmis/poom1675-cmis-wd.git
 
@@ -50,4 +52,9 @@ get <filename> - download a file
 
 
 
+Development server: python -m SimpleHTTPServer
+
+		localhost:8000
+
+public_html: http://cmis-hsteacher/~poom1675/index.html
 
