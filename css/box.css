@@ -1,6 +1,7 @@
 h1 {
 	border: dotted 50px; 
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 100px;
 	width: 1000px;
 	height: 200px;
@@ -8,35 +9,53 @@ h1 {
 }
 h2 {
 	border: dashed 25px;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 25px;
 	width: 750px;
 	height: 75px;
 	text-align: center;
 }
 p {
-	border: double 25px;
-	margin: 25px;
+	border: groove gold 25px;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 12px;
 	width: 1200;
 	height: auto;
 	text-align: left;
 }
 ul {
-	border: outset 6px;
-	border-color: red purple yellow blue;
-	margin: 25px;
+	border: outset 25px;
+	border-color: pink lightgreen gold cyan;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 25px;
+	width: 1200px;
+	height: auto;
+	
+}
+ol {
+	border: outset 25px;
+	border-color: pink lightgreen gold cyan;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 25px;
 	width: 1200px;
 	height: auto;
 	
 }
 footer {
-	border:
-	margin:
-	padding:
-	width:
-	height:
+	border: double 25px red;
+	background: brown;
+	color: red;
+	font-family: "Times New Roman";
+	font-size: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 12px;
+	width: 1440px;
+	height: auto;
 }
 html {
 	border:
@@ -51,15 +70,4 @@ body {
 	padding:
 	width:
 	height:
-}
-nav {
-	border: solid;
-	margin: 75px;
-	padding:
-	width:
-	height:
-	text-align: left;
-}
-table {
-
 }
