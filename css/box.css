@@ -1,23 +1,29 @@
 h1 {
-	border: dotted 50px; 
+	border: yellow dotted 12px; 
+	background-color: black;
+	color: yellow;
+	font-size: 100px;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 100px;
 	width: 1000px;
-	height: 200px;
+	height: auto;
 	text-align: center;
 }
 h2 {
-	border: dashed 25px;
+	border: dashed 12px;
+	background-color: red;
+	color: black;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 25px;
 	width: 750px;
-	height: 75px;
+	height: auto;
 	text-align: center;
 }
 p {
 	border: groove gold 25px;
+	color: white;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 12px;
@@ -28,6 +34,8 @@ p {
 ul {
 	border: outset 25px;
 	border-color: pink lightgreen gold cyan;
+	background-color: teal;
+	color: white;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 25px;
@@ -38,6 +46,8 @@ ul {
 ol {
 	border: outset 25px;
 	border-color: pink lightgreen gold cyan;
+	background-color: teal;
+	color: white;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 25px;
@@ -54,20 +64,31 @@ footer {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 12px;
-	width: 1440px;
+	width:auto;
 	height: auto;
 }
 html {
-	border:
-	margin:
-	padding:
-	width:
-	height:
+	background-image:url(http://images2.fanpop.com/images/photos/7800000/Nature-Full-HD-Wallpaper-national-geographic-7822279-1920-1080.jpg)
+	margin-left: auto;
+	margin-right: auto;
+	padding: 12px;
+	width: auto;
+	height: auto;
 }
 body {
-	border:
-	margin:
-	padding:
-	width:
-	height:
+	border: groove green 25px;
+	background-color: orange;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 25px;
+	width: auto;
+	height: auto;
+}
+article {
+	border: groove teal 25px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 25px;
+	width: 1200;
+	height: auto;
 }
