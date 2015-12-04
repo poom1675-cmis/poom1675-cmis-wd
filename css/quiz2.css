@@ -1,0 +1,36 @@
+Header {
+	background-color: red;
+	border-right-style: solid;
+	border-color: yellow;
+	border-width: 100px;
+	width: 500px;
+	height: 200px;
+}
+nav {
+	border-style: solid;
+	margin-left: 300px
+}
+h1 {
+	border-style: solid;
+	border-color: yellow;
+}
+main {
+	background-color: grey;
+	padding-left: 300px;
+}
+footer {
+
+	border-style: dashed;
+	border-color: blue;
+
+}
+p {
+	color: white;
+	background-color: blue;
+}
+table {
+	background-color: white;
+}
+th {
+	background-color: yellow;
+}
