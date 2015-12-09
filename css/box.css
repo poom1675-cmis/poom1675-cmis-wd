@@ -23,7 +23,8 @@ h2 {
 }
 p {
 	border: groove gold 25px;
-	color: white;
+	background-color: grey;
+	color: lightgreen;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 12px;
@@ -68,7 +69,7 @@ footer {
 	height: auto;
 }
 html {
-	background-image:url(http://images2.fanpop.com/images/photos/7800000/Nature-Full-HD-Wallpaper-national-geographic-7822279-1920-1080.jpg)
+	background-image:url(http://images2.fanpop.com/images/photos/7800000/Nature-Full-HD-Wallpaper-national-geographic-7822279-1920-1080.jpg);
 	margin-left: auto;
 	margin-right: auto;
 	padding: 12px;
@@ -91,4 +92,8 @@ article {
 	padding: 25px;
 	width: 1200;
 	height: auto;
+}
+table {
+	margin-left: auto;
+	margin-right: auto;
 }
