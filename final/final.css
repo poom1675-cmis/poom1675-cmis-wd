@@ -1,37 +1,88 @@
-* {
+// * {
 	outline: dotted red 1px;
 }
 nav {
-	width: 200px; 
+	width: 150px; 
 	float:left;
+	color: yellow;
+	border: yellow solid 1px;
+	margin-left: 10px;
 }
 main {
-	margin-left: 201px;
+	margin-left: 151px;
+	margin: 10px 10px 10px 161px;
 }
 img.right {
-	width: 700px;
-	height: auto;
-	margin-left: 300px;
-	margin-right: 300px;
+	width: auto;
+	height: 700px;
+	margin: 10px;
+}
+img.left {
+	width: auto;
+	height: 700px;
+	margin-left: ;
+	margin-left: 265px;
+	margin: 10px;
 }
 html {
-	background-color: ;
+	background-color: black;
 }
 h1 {
-	color: ;
+	color:lightgreen ;
 	background-color: ;
 	font-style: ;
 	font-size: ;
+	border: solid lightgreen 1px;
+	padding: 1%;
+	margin: 10px;
 }
 h2 {
-	color: ;
-	background-color: ;
+	color: cyan;
 	font-style: ;
 	font-size: ;
+	border: solid cyan 1px;
+	padding: 1%;
+	margin: 10px;
 }
 h3 {
-	color: ;
+	color: red;
 	background-color: ;
 	font-style: ;
 	font-size: ;
+	margin: 10px;
+}
+article {
+	clear: both;
+	border: solid red 1px;
+	padding: 1%;
+	margin: 10px;
+}
+footer{
+	clear: both;
+	color: white;
+	background-color: ;
+	font-style: ;
+	font-size: ;
+	margin: 10px;
+}
+ul {
+	color: yellow;
+	background-color: ;
+	font-style: ;
+	font-size: ;
+	width: 160px;
+	float: left;
+}
+br {
+	clear: both;
+}
+body {
+	margin-left: 150px;
+}
+p {
+	color: violet;
+	clear: both;
+	border: solid violet 1px;
+	padding: 1%;
+	margin: 10px;
 }
