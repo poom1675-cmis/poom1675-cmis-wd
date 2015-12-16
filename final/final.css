@@ -20,19 +20,17 @@ img.right {
 img.left {
 	width: auto;
 	height: 700px;
-	margin-left: ;
-	margin-left: 265px;
-	margin: 10px;
+	margin-left: 275px;
 }
 html {
-	background-color: black;
+	background-color:#0066cc;
 }
 h1 {
 	color:lightgreen ;
-	background-color: ;
+	background-color: grey;
 	font-style: ;
 	font-size: ;
-	border: solid lightgreen 1px;
+	border: groove lightgreen 10px;
 	padding: 1%;
 	margin: 10px;
 }
@@ -40,7 +38,8 @@ h2 {
 	color: cyan;
 	font-style: ;
 	font-size: ;
-	border: solid cyan 1px;
+	border: double cyan 10px;
+	background-color: grey;
 	padding: 1%;
 	margin: 10px;
 }
@@ -52,21 +51,21 @@ h3 {
 	margin: 10px;
 }
 article {
+	background-color: white;
 	clear: both;
-	border: solid red 1px;
+	border: outset orange 10px;
 	padding: 1%;
 	margin: 10px;
 }
 footer{
 	clear: both;
-	color: white;
-	background-color: ;
+	background-color: red;
 	font-style: ;
 	font-size: ;
 	margin: 10px;
 }
 ul {
-	color: yellow;
+	color: orange;
 	background-color: ;
 	font-style: ;
 	font-size: ;
@@ -78,11 +77,27 @@ br {
 }
 body {
 	margin-left: 150px;
+	margin-right: 150px;
 }
-p {
+p.footer {
+	color: orange;
+	background-color: ;
+	font-style: ;
+	font-size: ;
+	width: 160px;
+	float: left;
+}
+p.front {
 	color: violet;
 	clear: both;
-	border: solid violet 1px;
+	border: dashed violet 1px;
+	padding: 1%;
+	margin: 10px;
+}
+p.description {
+	color: violet;
+	clear: both;
+	border: dashed violet 1px;
 	padding: 1%;
 	margin: 10px;
 }
