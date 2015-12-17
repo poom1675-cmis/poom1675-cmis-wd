@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Bitter);
 // * {
 	outline: dotted red 1px;
 }
@@ -33,6 +35,7 @@ h1 {
 	border: groove lightgreen 10px;
 	padding: 1%;
 	margin: 10px;
+	font-family: 'Oswald', sans-serif;
 }
 h2 {
 	color: cyan;
@@ -44,10 +47,8 @@ h2 {
 	margin: 10px;
 }
 h3 {
-	color: red;
-	background-color: ;
-	font-style: ;
-	font-size: ;
+	font-family: 'Bitter', serif;
+	color: navy;
 	margin: 10px;
 }
 article {
@@ -59,7 +60,7 @@ article {
 }
 footer{
 	clear: both;
-	background-color: red;
+	background-color: lightblue;
 	font-style: ;
 	font-size: ;
 	margin: 10px;
@@ -79,25 +80,8 @@ body {
 	margin-left: 150px;
 	margin-right: 150px;
 }
-p.footer {
-	color: orange;
-	background-color: ;
-	font-style: ;
-	font-size: ;
-	width: 160px;
-	float: left;
-}
-p.front {
-	color: violet;
-	clear: both;
-	border: dashed violet 1px;
-	padding: 1%;
-	margin: 10px;
-}
-p.description {
-	color: violet;
-	clear: both;
-	border: dashed violet 1px;
-	padding: 1%;
-	margin: 10px;
+p { 
+	color: yellow;
+	border: dashed blue 1px;
+	background-color: #0066cc;
 }
